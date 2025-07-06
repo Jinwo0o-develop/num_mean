@@ -25,6 +25,8 @@
 ![image](https://github.com/user-attachments/assets/eb4a6793-f241-4877-936e-c24532daaa85)<br>
 전역변수와 지역변수의 개념을 이해하고 n을 밖에 뺏는데도 오류가 나왔습니다.<br>
 왜 오류가 나는지 처음에는 몰랐지만, 일단 안되니까 n = 0, count = n + 1, 이런 변수도 해서 return count를 사용하기도 했습니다.<br>
+![image](https://github.com/user-attachments/assets/bf4ee5bc-79e0-462c-a09a-7ce591f692cf)<br>
+함수 자체가 호출되는걸 보고, 변수에 저장하는 아이디어를 찾아냈습니다.<br>
 ![image](https://github.com/user-attachments/assets/123ce64b-8dd4-4a30-b42a-b1c23d540de1)<br>
 일단, 뭘 해도 안되니 큰 뼈대부터 잡아놓고, 계속 쪼물쪼물 건드려봤는데 이건 또 되더라구요 ?<br>
 ![image](https://github.com/user-attachments/assets/e41f97ae-a208-43f9-aa89-f93118344f48)<br>
