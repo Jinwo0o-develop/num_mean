@@ -23,9 +23,8 @@
 작성하기 무섭게 UnboundLocalError라고 떳습니다. 숫자를 카운팅할 변수 n을 함수안에 넣고 밖에 빼고 해도 똑같더라구요. <br>
 ![image](https://github.com/user-attachments/assets/eb4a6793-f241-4877-936e-c24532daaa85)<br>
 왜 n을 밖에 빼도 오류가 나는지 처음에는 몰랐지만, 일단 안되니까 n = 0, count = n + 1, 이런 변수도 해서 return count를 사용하기도 했습니다.<br>
-
-
-일단, 큰 뼈대부터 잡아놨
+![image](https://github.com/user-attachments/assets/123ce64b-8dd4-4a30-b42a-b1c23d540de1)<br>
+일단, 뭘 해도 안되니 큰 뼈대부터 잡아놨고,
 
 
 
