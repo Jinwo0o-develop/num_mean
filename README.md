@@ -25,8 +25,6 @@
 ![image](https://github.com/user-attachments/assets/eb4a6793-f241-4877-936e-c24532daaa85)<br>
 전역변수와 지역변수의 개념을 이해하고 n을 밖에 뺏는데도 오류가 나왔습니다.<br>
 왜 오류가 나는지 처음에는 몰랐지만, 일단 안되니까 n = 0, count = n + 1, 이런 변수도 해서 return count를 사용하기도 했습니다.<br>
-![image](https://github.com/user-attachments/assets/bf4ee5bc-79e0-462c-a09a-7ce591f692cf)<br>
-함수 자체가 호출되는걸 보고, 변수에 저장하는 아이디어를 찾아냈습니다.<br>
 ![image](https://github.com/user-attachments/assets/123ce64b-8dd4-4a30-b42a-b1c23d540de1)<br>
 일단, 뭘 해도 안되니 큰 뼈대부터 잡아놓고, 계속 쪼물쪼물 건드려봤는데 이건 또 되더라구요 ?<br>
 ![image](https://github.com/user-attachments/assets/e41f97ae-a208-43f9-aa89-f93118344f48)<br>
@@ -35,6 +33,8 @@
 이 코드가 되는 이유는 count를 안에서 수정이나 새로 선언하는 것이 아닌, 읽기만 하기 떄문이다, 즉 읽기만 하면 전역변수로써 유지된다. 그래서 문제가 없는 것이고,<br>
 반대로, 바꾸려고 하면 지역 변수로 간주하는 것. 해결할려면 global 함수를 사용해야 한다고 하는데, 일단 내 능력 껏 해보기로 했다.<br>
 대신 언젠간 도움이 될테니 나중에 꼭 해봐야겠어.<br>
+![image](https://github.com/user-attachments/assets/bf4ee5bc-79e0-462c-a09a-7ce591f692cf)<br>
+함수 자체가 호출되는걸 보고, 변수에 저장하는 아이디어를 찾아냈습니다.
 ![image](https://github.com/user-attachments/assets/fd11cc79-e9c2-4fa7-8143-755d5c5e5e8e)<br>
 정말 이때부터 많이많이 고민했습니다.. 이 부분에서 2시간정도 고민했는데, 짚이는 대로 문제점도 고민해봤는데, 해결방법이 떠오르질 않으니 답답하더라구요.
 a가 1이나 2로 고정되기도 하고, 이 쯤에서 global이라는 걸 까먹어버려서 결국 GPT한테 물어보러 갔습니다.
